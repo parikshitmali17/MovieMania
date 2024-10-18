@@ -1,0 +1,89 @@
+footer {
+  position: fixed;
+  margin: 10px;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  left: 0;
+  width: 100%;
+}
+
+.completeCard {
+  position: relative;
+  border-color: black;
+  margin: 3rem;
+  margin-left: 1.65rem;
+  margin-right: 1.65rem;
+  margin-top: 60px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.parentToCard {
+  display: inline-block;
+}
+
+.parentToPagination {
+  position: relative;
+  display: flex; /* Use flexbox */
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.movieDetailContainer {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+}
+
+.movieDetail {
+  margin-top: 110px;
+}
+
+.movieDetailTitle,
+.movieDetailtagline {
+  display: flex; /* Use flexbox */
+  justify-content: center;
+}
+
+.movieDetailImg {
+  position: relative;
+  display: flex; /* Use flexbox */
+  justify-content: center;
+}
+
+.discoverMovieHeading,
+.trendingMovieHeading,.searchMovieHeading {
+  margin-top: 6rem;
+  position: relative;
+  display: flex; /* Use flexbox */
+  justify-content: center;
+}
+
+#root > div > div:nth-child(2) > div > div:nth-child(1) {
+  display: inline-flex;
+}
+
+.textHeightLimit {
+  max-height: 3em; /* Limit to a certain height */
+  line-height: 1.5em; /* Adjust line height */
+  overflow: hidden; /* Hide overflowing text */
+  display: -webkit-box; /* For multiline truncation */
+  -webkit-box-orient: vertical; /* Orient the box vertically */
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
+}
+
+.cardContent {
+padding: 8px;
+  padding-left :10px;
+  padding-right :10px;
+}
+
+
+.favoriteMoviesPage{
+  margin-top: 6rem;
+  position: relative;
+  display: flex; /* Use flexbox */
+  justify-content: center;
+}

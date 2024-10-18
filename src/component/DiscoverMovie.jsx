@@ -8,8 +8,8 @@ function DiscoverMovie(props) {
   const [movies, setMovies] = useState([]);
   console.log(`props :${props.pageNumber}`);
 
- const BEARER_TOKEN =process.env.REACT_APP_BEARER_TOKEN;
- //const BEARER_TOKEN ="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkM2ZlMGRkZDU4NDA3ZWNkOTJlZWNjNmJlOTQ3ZTg5NyIsIm5iZiI6MTcyODEyMzcxMi4wMzk2NzUsInN1YiI6IjY3MDEwY2VhZTg0ZWViMzVhMGY4NGFjNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.JWJ5ZJnUzG6w4EUT0hZD0GUVbkysPD_kqDKUeqXbuS0";
+ //const BEARER_TOKEN =process.env.REACT_APP_BEARER_TOKEN;
+ const BEARER_TOKEN ="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkM2ZlMGRkZDU4NDA3ZWNkOTJlZWNjNmJlOTQ3ZTg5NyIsIm5iZiI6MTcyODEyMzcxMi4wMzk2NzUsInN1YiI6IjY3MDEwY2VhZTg0ZWViMzVhMGY4NGFjNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.JWJ5ZJnUzG6w4EUT0hZD0GUVbkysPD_kqDKUeqXbuS0";
  
 
   // TMDb API base URL for popular movies

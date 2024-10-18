@@ -11,7 +11,7 @@ function TrendingMovie(props) {
   const BEARER_TOKEN ="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkM2ZlMGRkZDU4NDA3ZWNkOTJlZWNjNmJlOTQ3ZTg5NyIsIm5iZiI6MTcyODEyMzcxMi4wMzk2NzUsInN1YiI6IjY3MDEwY2VhZTg0ZWViMzVhMGY4NGFjNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.JWJ5ZJnUzG6w4EUT0hZD0GUVbkysPD_kqDKUeqXbuS0";
   // TMDb API base URL for popular movies
   const BASE_URL = `https://api.themoviedb.org/3/trending/movie/week?language=en-US`;
-   console.log("Bearer Token:", BEARER_TOKEN);
+  //  console.log("Bearer Token:", BEARER_TOKEN);
 
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function TrendingMovie(props) {
           },
         });
         // Set the movie data in state
-        console.log(response.data);
+     
         setTrendingMovies(response.data.results);
         
       } catch (error) {

@@ -77,19 +77,16 @@ function Header() {
 
   // Handle search submit (for example, when user presses enter)
   const handleSearchSubmit = (event) => {
-    console.log("search iocn is clicked");
+  
     navigate(`/search/${searchQuery}`);
     if (event.key === "Enter") {
-      // You can now use searchQuery to perform your search logic
-      console.log("Search query:", searchQuery);
-
-      // For example, you can navigate to a search results page
+      
       navigate(`/search/${searchQuery}`);
     }
   };
 
   function handleTrending() {
-    console.log("trending is click");
+    // console.log("trending is click");
     navigate(`/trending`);
   }
 
@@ -102,7 +99,7 @@ function Header() {
   };
 
   const [anchorEl, setAnchorEl] = React.useState(null);
-  console.log();
+  
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
   const isMenuOpen = Boolean(anchorEl);

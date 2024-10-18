@@ -31,7 +31,7 @@ function DiscoverMovie(props) {
 
           setMovies(response.data.results);
           //console.log(response.data.results);
-          console.log("USeeffect is being called");
+          
         } catch (error) {
           console.error("Error fetching movie data:", error);
         }
